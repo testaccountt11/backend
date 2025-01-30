@@ -46,10 +46,7 @@ public class User {
     
     @Enumerated(EnumType.STRING)
     private UserRole role = UserRole.USER; // Default role
-    
-    private Integer tokenBalance = 1000;
-    private Integer pointsLearnings = 0;
-    private Boolean isPremium = false;
+
 
 
 
